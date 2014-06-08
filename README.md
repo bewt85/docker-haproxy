@@ -8,7 +8,7 @@ This is a docker container which uses incrond to reload itself whenever haproxy.
 It is updated by [haproxy_updater](https://github.com/bewt85/mayfly-haproxy-updater) which
 mounts the `/etc/haproxy` folder.
 
-You can build your own versions of the ontainers by setting the following environment variable 
+You can build your own version of the container by setting the following environment variable 
 to your docker index username (if you don't it uses mine) and running this bash script:
 
 ```
